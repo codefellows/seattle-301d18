@@ -1,0 +1,20 @@
+* {
+  color: red;
+}
+
+body {
+  background-color: #ccc;
+}
+
+@media screen and (min-width: 700px){
+  h1 {
+    color: yellow;
+    font-family: Helvetica;
+    margin-top: 400px;
+    text-align: center;
+  }
+
+  body {
+    background-color: purple;
+  }
+}
