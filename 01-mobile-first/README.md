@@ -2,19 +2,6 @@
 
 ## Today's Plan
 
-`MORNING LECTURE`
-
-- Overview of MVC
-	- [One diagram](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/MVC-Process.svg/200px-MVC-Process.svg.png)
-	-  [Another diagram](https://www.zkoss.org/_w/images/c/c1/MVC.png)
-	-  [Yet another diagram!](https://basicsofwebdevelopment.files.wordpress.com/2015/01/mvc_role_diagram.png)
-- [Slides](https://www.icloud.com/keynote/000ZskfOrLc_Cx2zBOz0arTJw#Code_301_-_Class_3)
-  1. SMACSS
-  2. RWD
-
-`lunch break`
-`AFTERNOON LECTURE`
-
 - Overview of course structure/setup
   1. The evolving blog & starter code
   2. The ongoing portfolio assignment
@@ -26,13 +13,21 @@
 	- CodePen
 	- repl.it
 
-`break`
-
 - Discussion of reading assignments
-- Responsive design code demo: media queries FTW!
-- And let's throw in some icon font action!
 
-`break`
+`10-minute break`
+
+- Overview of MVC
+	- [One diagram](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/MVC-Process.svg/200px-MVC-Process.svg.png)
+	-  [Another diagram](https://www.zkoss.org/_w/images/c/c1/MVC.png)
+	-  [Yet another diagram!](https://basicsofwebdevelopment.files.wordpress.com/2015/01/mvc_role_diagram.png)
+- [Slides](https://www.icloud.com/keynote/000ZskfOrLc_Cx2zBOz0arTJw#Code_301_-_Class_3)
+  1. SMACSS
+  2. RWD
+
+- Responsive design code demo: media queries FTW!
+
+`10-minute break`
 
 - Deep code review of the starter code...
 - But first... let's see the solution in action!
@@ -43,6 +38,7 @@
 	- Then, see how you can apply these same ideas in your portfolio!
 
 ## Helpful Resources
+
  - [IcoMoon: Free Icon Fonts](https://icomoon.io/app/#/select)
  - [FlatIcon: another icon source](http://www.flaticon.com/)
  - [Shay Howe's Intro to RWD](http://learn.shayhowe.com/advanced-html-css/responsive-web-design/)
