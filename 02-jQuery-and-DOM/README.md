@@ -15,7 +15,10 @@
 `10-minute break`
 
 - Review of today's lab and portfolio assignments
-	- How the lab code works
+  - Look at a working version
+  - Code review: directory structure
+  - Code review: how the lab code works
+  - TODOs
 	- Portfolio: daily workflow
 
 ## Learning Objectives
