@@ -1,5 +1,23 @@
 # Portfolio Assignment for Class 5 - Code Review
 
-This portfolio assignment is designed in the curriculum as a peer code review assignment, without any specific pieces to add. You are encouraged to go through this peer code review process, whether onliine over the weekend or on person on Monday person... but you are not required to do this due to the fact that this assignment was distributed late. We will do a peer code review with the portfolio later in Week 2.
+Work in pairs to improve your portfolio.
 
-So, in the meantime, keep building out your portfolio. If you'd like to have a page like our blog entry page, one that would actually store and persist data so that your portfolio could have an actual blog on it, you can build that out. Later in the course (Day 13, when we discuss deployment) we will talk about strategies for persistence and storage of a blog, but that will not ever become a requirement of your portfolio.
+No need to add each other as collaborators, just share a link to your portfolio repo with your partner.
+
+Start with code review. Spend the first 30 minutes looking over your partner's portfolio code. Look for opportunities to improve the code base according to the best practices and concepts that we've covered in class so far.
+
+Remember, good code review:
+ - Focuses on the code, not the author
+ - Asks "Why is it this way?" rather than criticizing
+ - Will nitpick the details
+ - Seeks to make the code more understandable
+ - Embraces and congratulates best practices
+ - Respects the work that went into the current product
+
+Create descriptive issues for the most important issues that should be addressed. In the issue, describe what you see, ask clarifying questions as needed, and link to the related line of code in the repo.
+
+Once you both have a few issues logged, start writing code together.
+
+The Driver will work on the Navigator's codebase. The Navigator can talk them through what is where, and how changes should be made, and the Driver can implement them.
+
+Switch after you've worked through a few issues. Switch back again (and again) if time allows.
