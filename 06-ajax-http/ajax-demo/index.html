@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Seattle Neighborhood Data</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/styles/styles.css">
+    <!-- TODO -->
+    <!-- Let's put the Handlebars template here, in a <script> tag -->
+    <script id="neighborhood-template" type="text/x-handlebars-template">
+      <h2>{{name}}</h2>
+      <p>{{city}}</p>
+      <p>{{population}}</p>
+      <p>{{founded}}</p>
+      {{{body}}}
+      <hr>
+    </script>
+
+  </head>
+  <body>
+    <header class="site-header clearfix">
+      <section class="heading-group-h1">
+        <h1>
+          Neighborhood Stats
+        </h1>
+      </section>
+    </header>
+    <main>
+      <section>I cry and cry and cry unless you pet me, and then maybe i cry just for fun. Sit on human eat owner's food so jump around on couch, meow constantly until given food, lick the plastic bag eats owners hair then claws head. Meow fall over dead (not really but gets sypathy) meowwww. Sit by the fire cats secretly make all the worlds muffins for kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching attack your ankles chase the red dot, hairball run catnip eat the grass sniff. Hopped up on catnip shove bum in owner's face like camera lens yet sleep on keyboard, but lick butt, and wack the mini furry mouse.<section>
+      <button id="show-neighborhoods">Click here to show data on some Seattle neighborhoods</button>
+      <section id="neighborhoods"></section>
+    </main>
+    <footer>
+      &copy; 2017 Fake Data Limited
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <!-- REVIEW: note that Handlebars has been added as a dependency here -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.6/handlebars.js"></script>
+    <script src="scripts/dataSet.js"></script>
+    <script src="scripts/neighborhood.js"></script>
+  </body>
+</html>

@@ -1,0 +1,8 @@
+button {
+  color: white;
+  background-color: navy;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 1.2em;
+}
