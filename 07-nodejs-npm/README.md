@@ -8,7 +8,7 @@
 
 - Code Review: Let's start with Steven's questions from the class Slack channel and go from there.
 
-- AJAX review: Let's go through this [AJAX-demo.md](https://github.com/codefellows/seattle-301d17/blob/master/06-ajax-http/AJAX-demo.md) file that was added to the lecture repo this morning.
+- AJAX review: Let's go through this [AJAX-demo.md](https://github.com/codefellows/seattle-301d18/blob/master/06-ajax-http/AJAX-demo.md) file that was added to the lecture repo this morning.
 
 - [JSONLint](http://jsonlint.com/) is your friend.
 
