@@ -2,27 +2,26 @@
 
 *Databases power web applications everywhere by enabling them to persist, modify, and query datasets to great effect. While there are many types of database options available now, Structured Query Language (SQL) remains the de facto standard for communicating with relational database systems. Let's build some SQL skills!*
 
-#### The next two days are different from previous days in this course with how the lab/portfolio assignments are structured. Let's go over that before we do anything else, so that we can see the big picture before diving into the content.
-
 - View today's and tomorrow's classes and labs as a big two-part structure. It's all the same basic subject, but way too much for one day, so we've split it.
-- There is **NO** portfolio assignment associated with today, so that means you can set that aside briefly (other than getting caught up...)
-- Tomorrow morning is an extension of this afternoon's lab time. Plan to use it for lab rather than portfolio.
-- Recommendation for this afternoon's lab time: study the code and get familiar with the big picture.
-- Recommendation for tomorrow morning's lab time: work on the TODOs.
-- The due date for Lab 8 **AND** Lab 9 will be Friday at 12:59p; in other words, you do not need to get today's lab completed by class time tomorrow. Focus on your learning and understanding of the concepts and code more so than trying to complete tasks. Take your time.
+- Reminder: There is **NO** portfolio assignment associated with today, so that means you can set that aside briefly (other than getting caught up...)
+- Tomorrow morning is an extension of this afternoon's lab time. Plan to use it for lab rather than portfolio. Take your time and make sure to understand everything as much as you can.
+- Recommendation for this afternoon's lab time: study the code, discuss it with your partner, and get familiar with the big picture, maybe start the TODOs.
+- Recommendation for tomorrow morning's lab time: finish the TODOs.
 
-
-----
 
 ## Today's Plan
 
-Song for today: ["The Empire Strikes Back Theme"](https://www.youtube.com/watch?v=dhL_v6yZIso&index=1&list=PLVngfM2hsbi97X7yB1bCwl5qSoC23l9zo) by Meco, a true disco abomination!
+*Song for today: ["The Empire Strikes Back Theme"](https://www.youtube.com/watch?v=dhL_v6yZIso&index=1&list=PLVngfM2hsbi97X7yB1bCwl5qSoC23l9zo) by Meco, a true disco abomination!*
 
+- First off, a visit from Karinne and Mindy in Admissions!
 - Code Review (brief; just enough to clarify yesterday)
-- Nodemon!!! Let's install it!
 - Installation of Postgres progress?
+- Today for lab we'll organize you in pairs/threes by OS just to help manage the functionality of your setups in a more efficient manner. By the time of tomorrow's lab  we'll do pairs as usual and mixed OSs should not matter. Let's take couple of minutes so Steven can make lists of who is on which OS.
+- We'll plan to do about 75-90 minutes of review of the lab code in class today. Sam won't publish the lab until we are finished with class; you should be 100% dialed on the class discussion and not futzing around on your own screen other than to take some notes.
 
-[Slides](08-sql.pdf)
+- [Postgres article on Wikipedia](https://en.wikipedia.org/wiki/PostgreSQL)
+
+[Slides on SQL](08-sql.pdf)
 
 `10-minute break`
 

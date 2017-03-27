@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>FP Demo</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1>Functional Programming Demo</h1>
+<h3>.filter() => returns a new array of values based on conditional return statement</h3>
+<div class="codeblock">
+<pre><code>doctors.filter(function(doctor) {
+  return doctor.number > 10;
+});</pre></code>
+</div>
+<p>Returns a new array of doctors; only those with a number value greater than 10</p>
+
+<p>+++++++++++++++++++++++++</p>
+<div class="codeblock">
+<pre><code>let filteredDocs = doctors.filter(function(doctor) {
+  return doctor.number > 10;
+});
+console.table(filteredDocs);</pre></code></div>
+<p>No return value, given that it's been assigned to the filteredDocs variable and then displayed with console.table()</p>
+
+<p>+++++++++++++++++++++++++</p>
+
+<h3>.map() => returns a new array of values, which have been manipulated in some way</h3>
+<div class="codeblock"><pre><code>doctors.map(function(doctor) {
+  return {
+    number: doctor.number,
+    name: doctor.actor.split(' '),
+    yearsPlayed: (doctor.end - doctor.begin) + 1
+  }
+});</pre></code></div>
+ <p>Returns a new array of doctors; each new object has a number, name, and yearsPlayed property</p>
+
+<p>+++++++++++++++++++++++++</p>
+
+<h3>.map() and .filter() chain</h3>
+<div class="codeblock">
+  <pre><code>doctors.map(function(doctor) {
+  return {
+      number: doctor.number,
+      name: doctor.actor.split(' '),
+      yearsPlayed: (doctor.end - doctor.begin)
+    }
+  }).filter(function(doctor) { // Newly mapped array is returned from map, and filter is called on that new array
+    return doctor.yearsPlayed < 5 // We're now filtering on the newly returned object properties.
+});</pre></code></div>
+
+<p>+++++++++++++++++++++++++</p>
+
+<h3>.reduce() => returns a new value; defaulting to integer values, but can also be a new array of values</h3>
+<div class="codeblock"><pre><code>var arr = [34, 55, 3, 23, 12, 7, 99]
+
+arr.reduce(function(acc, current) {
+  return acc + current
+});</pre></code></div>
+<p>returns => 233 (default integer is 0)</p>
+<div class="codeblock">
+  <pre><code>arr.reduce(function(acc, current) {
+  return acc + current
+}, 1);</pre></code></div>
+<p>returns => 234 (because we changed the default integer to 1)</p>
+
+<p>+++++++++++++++++++++++++</p>
+
+<h3>passes an array as the accumulator</h3>
+<div class="codeblock">
+  <pre><code>doctors.reduce(function(acc, curr) {
+if (curr.number > 10) {
+  acc.push({
+    number: curr.number,
+    name: curr.actor.split(' '),
+    yearsPlayed: (curr.end - curr.begin) + 1
+  })
+}
+return acc
+}, []);</pre></code></div>
+
+    <script src='app.js' type="text/javascript"></script>
+  </body>
+</html>
