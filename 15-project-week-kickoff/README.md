@@ -1,7 +1,5 @@
 # Class 15 - Review & Project Week Kickoff!
 
-####Overview
-
 *Today we'll review the topics we've covered in the past 3 weeks and then establish the guidelines for moving into project week!*
 
 Song for the day: ["The Final Countdown" by Gabe The Dog](https://www.youtube.com/watch?v=Rn5vJ0dhxXs)
@@ -22,9 +20,10 @@ Song for the day: ["The Final Countdown" by Gabe The Dog](https://www.youtube.co
 
 **Any requested topics for more specific review? Let's make a list!**
 
-- (topic 1?)
-- (topic 2?)
-- (topic 3?)
+- The process of accessing and using an API, reading docs, etc.
+- Combining data from two API sources
+- NPM installation practices
+- Lab 14 review
 
 `BREAK (10 minutes)`
 
