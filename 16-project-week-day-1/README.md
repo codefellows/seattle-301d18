@@ -1,7 +1,6 @@
 # Class 16 -  Project Week: Milestone 1
 
 ## Final Project Rules and Process
-For your final project, your task is to work with a team to build a web site that simulates a real-world product, service, or game.
 
 **Rules:**
 
