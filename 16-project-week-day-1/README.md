@@ -25,20 +25,19 @@ Here's the process that we'll be using for project week.
 
 1. On the first day of project week, your team must submit a proposal to an instructor with the following information:
 
- - Your team's name
+ - Your team's name (if you want one)
  - Your team's members
  - Your project's pitch. (What is the problem statement and what are the benefits of your solution? Read more about these [here](https://www.bidsketch.com/proposal-resources/proposal-templates/web-design-proposal-template).)
- - A diagram of relevant details from your project's domain model
- - A few wireframe sketches of your project's pages
+ - A diagram of relevant details from your project's domain model: what are you building, how does it work, how will you wire together the the pieces, what do you think will be the biggest technical challenge and how will you solve it?
+ - A few wireframe sketches of your project's pages (remember... mobile first!)
 
  **TIP:** Use pencil and paper to diagram and sketch.
 
    Proposals, written or electronic, as per the project description, are due for review with the instruction team. First come, first served!
 
-  **Due at 12pm.**
+  **Seek to have this completed by early afternoon; there is no set due time.**
 
-2.
-Here are some tips on how to organize your team during the launch phase.
+2. Here are some tips on how to organize your team during the launch phase.
 
  * Elect a Launch Driver who will be responsible for the following:
     * Driving the coding of the initial scaffolding phase.
